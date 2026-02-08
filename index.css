@@ -2,10 +2,26 @@ body,html {
     padding:0px;
     margin:0px;
     font-family: 'Comfortaa', cursive;
-    font-weight:bold;
     color:#fff;
     background:rgb(0, 0, 0);
     scroll-behavior: smooth;
+    text-align: justify;
+}
+#header {
+    font-weight: bold;
+}
+h1 {
+    font-weight:bold;
+}
+h2 {
+    color: lightgreen;
+    font-weight: bold;
+}
+.red-link {
+    color: red;
+}
+.green-link {
+    color: green;
 }
 #loading {
     width: 100vw;
@@ -184,7 +200,7 @@ a.btn_one{
   display:inline-block;
   text-decoration:none;
 }
-.project div {
+.abstract div {
     font-weight:normal;
 }
 .btn_two {
